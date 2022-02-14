@@ -109,14 +109,15 @@ $form-group-margin-bottom:       30px !default;
 // Template Base
 body {
 	font-family: $font-primary;
-	font-weight: 300;
-	font-size: 14px;
+	font-weight: 400;
+	font-size: 16px;
 	line-height: 1.6;
 	color: rgba(0,0,0,.5);
 	background: lighten($brand-black,96%);
 	@media screen and (max-width: $screen-md) {
 		font-size: 16px;
 	}
+	
 	// color: rgba(255,255,255,.7);
 	// background: $brand-bg-color;
 
@@ -145,7 +146,7 @@ p {
 h1, h2, h3, h4, h5, h6 {
 	color: $brand-black;
 	font-family: $font-primary;
-	font-weight: 400;
+	font-weight: 500;
 	margin: 0 0 30px 0;
 }
 figure {
@@ -336,6 +337,7 @@ figure {
 #fh5co-main {
 	width: 80%;
 	float: right;
+	padding: 0 5px;
 	@include transition(.5s);
 	@media screen and (max-width: $screen-lg) {
 		width: 70%;
